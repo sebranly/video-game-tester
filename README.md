@@ -21,9 +21,11 @@ Beginners should really force themselves to share their source code online by us
 
 The game should bring more and more concepts as the player progresses. There are a lot of ways to achieve that, some of them are:
 - introduce new enemies
-- introduce new visual themes
+- introduce new visual themes (this is really easy to implement with a tileset, yet it completely changes the way the player perceives the game)
 - increase the difficulty
 - introduce new power-ups
+- introduce an endless mode that relies on [procedural generation](https://en.wikipedia.org/wiki/Procedural_generation) to offer an infinity of new levels
+- promote retention by having scoring systems so that the player wants to improve their own score
 
 #### Level Editor
 
@@ -39,7 +41,7 @@ No matter what, every level editor should try to implement most of these things:
 
 I think that the golden rule is to create the level editor at the very beginning of the project and then to use it for every single level. If such a process feels fastidious, it means that the players won't appreciate the level editor. Usually AAA games are built based on an internal level editor tool. Some of them even got released publicly, like Mario Maker for instance.
 
-A real plus is to offer a progressive level editor based on the progress of the player within the game. For example, offer a selection of visual themes in the level editor once the player discovered them by playing the game.
+A real plus is to offer a progressive level editor that contains more and more features/items based on the progress of the player within the game. For example, offer a selection of visual themes in the level editor once the player discovered them by playing the game.
 
 ## BomberMario
 
@@ -51,6 +53,10 @@ A real plus is to offer a progressive level editor based on the progress of the 
 - :calendar: **Release Date:** May 19, 2017
 - TBD **Dates of the test:** End of December 2018
 - TBD **Download Link:** https://www.anthony-khelil.fr/BomberMario/Download.php
+
+### Disclaimer
+
+I didn't finish the game up to 100%. For instance, I hardly tested the online mode, hardly tested the endless solo mode, and although I completed all adventure levels, I didn't try to get all 4 tokens for each of them. If some points below are incorrect please let me know. I fully read the [blog article](https://www.anthony-khelil.com/Article.php?ID=2&Language=English).
 
 ### Pros
 
@@ -80,6 +86,7 @@ A real plus is to offer a progressive level editor based on the progress of the 
 - :bulb: Innovative gameplay
 - TBD Really easy installation and doesn't take a lot of space
 - TBD There is a level editor
+- TBD The 4 tokens to unlock per level encourage the player to retry the same level
 
 ### Cons
 
@@ -99,3 +106,9 @@ A real plus is to offer a progressive level editor based on the progress of the 
 - TBD Pretty repetitive overall, there isn't a lot of evolutions happening through the game apart from the 3 different themes and the new type of enemies appearing (see TBD). For instance, it would have been amazing to get access to more power-ups like a star that makes the player invincible for a short period of time (like in Mario) so that the player can run through as many enemies as possible to kill them (like in Pac-Man). Another example would be to offer a special bomb (limited to 1) that has a longer radius of explosion (or maybe infinite). And another example could be a bomb that explodes bricks that cannot usually be destroyed. Playing in the same visual theme for 20 levels becomes a bit boring as well.
 - TBD The level editor is really poor (see TBD)
 - TBD Online game can be improved. For instance, it's misleading as it's not clear if this is competitive or co-operative. We were surprised by the fact the diamonds' changes (when player A picks one of them) were not reflected (player B still sees it, we understood why but it can be counter-intuitive as we can see each other's character). It felt like we were not really playing together because we didn't have a clear impact on each other except forcing one of the players to follow us in the next level. The online game wasn't really lagging in the way that my own character was running smoothly but the other player's character's progression was really slow to update (~3-4 seconds) despite playing in the same room. Also, the game froze (black screen) for the host after 4-5 levels and later on, creating/joining a new session was impossible for both of us despite killing/re-launching the app.
+- TBD No mini-map is displayed. That might have been a choice not to make the gameplay too easy. I think in that case, the mini-map could have been a special item that is hidden that the user has to pick in order to have a global overview of the map/ennemies' position as a reward
+- TBD There is no change of music or clear change of display when the player is about to die. It's hard to focus on the enemies moving quickly/the health bar. An additional video/audio indicator when there is only one life left could be good.
+- TBD A hardcode mode could be good. It could be a mode with a maximum of 3 lives for instance, or a mode that doesn't display any bomb/lives indicator on screen. We can also imagine a level in which enemies keep spawning (with a maximal threshold) until the "generator of enemies" is destroyed with a bomb by the player. Or it could be a level in which there are no safe zones (i.e. the enemies can move everywhere the player can move).
+- TBD Difficult levels become less interesting after a while once the player realizes that the best technique is to wait on a bomb spawner and hold `Space` key to kill enemies for 2-3 minutes before doing any move. One easy solution would be to include a 1-by-1 safe spot with a bomb spawner on it so that the player can target 4 cells at the same time (I think the maximum of targetable cells I've seen was 3 (the 4th one was a safe spot enemies couldn't go onto)). It would be good to introduce more power-ups (a green shell that the player throws against enemies for instance) in order to solve this issue (see TBD). By making the code open-source, developers could submit a PR introducing such a change (see TBD).
+- TBD The menu doesn't show hints about the progression of the player. For instance when on the menu, I'd like `Adventure` to have an icon or a progress bar indicating how far I completed the overall game.
+- TBD No real secrets in the game like easter eggs or hidden levels that get unlocked after completion
