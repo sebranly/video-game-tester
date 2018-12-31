@@ -63,6 +63,27 @@ A real plus is to offer a progressive level editor that contains more and more f
 |:pencil2: Interesting level design|:white_check_mark:|:white_check_mark:|
 |:notes: Music in the background and sound effects for auditive feedback depending on actions|:white_check_mark:|:white_check_mark:|
 |:bar_chart: Good gameplay evolution (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#evolution))|:x:|:white_check_mark:|
+|:earth_americas: Support in English and French on the website|:white_check_mark:|:white_check_mark:|
+|:earth_americas: French and English support within the game|:x:|:white_check_mark:|
+|:octocat: The code is open-source (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#open-source))|:x:|:x:|
+|:arrow_up_down: Full-screen mode|:white_check_mark:|:white_check_mark:|
+|:necktie: The overall project looks professional|:white_check_mark:|:x:|
+|:black_circle: Nice transition effects in the menu|:white_check_mark:|:white_check_mark:|
+|:cd: Several platforms for the game (Windows and Mac)|:white_check_mark:|:white_check_mark:|
+|:runner: Smooth animations (the player and enemies don't move tile by tile but pixel by pixel)|:white_check_mark:|:white_check_mark:|
+|:chart_with_upwards_trend: New enemies appear in the game|:white_check_mark:|:white_check_mark:|
+|:busts_in_silhouette: Lots of enemies moving at the same time on the screen|:white_check_mark:|:white_check_mark:|
+|:dart: Skill-based game rather than based on luck|:white_check_mark:|:white_check_mark:|
+|:zap: No performance drop at all (it never slows down)|:white_check_mark:|:x:|
+|:bug: No bugs at all|:white_check_mark:|:x:|
+|:floppy_disk: Auto-save|:white_check_mark:|:white_check_mark:|
+|:bulb: Innovative gameplay|:white_check_mark:|:white_check_mark:|
+|:balloon: Really easy installation and doesn't take a lot of space|:white_check_mark:|:white_check_mark:|
+|:recycle: There are special tokens/coins to obtain per level in order to encourage the player to retry the same level|:white_check_mark:|:white_check_mark:|
+|:copyright: Video and audio files being used belong to the author or the source is clearly mentioned (especially since it's Nintendo)|:x:|:x:|
+|:mouse: Mouse clicks don't work for selecting the menu or within the level editor|:x:|:x:|
+|:mouse: The mouse is properly hidden from the screen (I'd expect not to see the cursor otherwise it's as annoying as watching a movie with the cursor appearing on top)|:x:|:x:|
+|:gem: The menu should show hints about the progression of the player. For instance when on the menu, I'd like `Adventure` to have an icon or a progress bar indicating how far I completed the overall game.|:x:|:x:|
 
 Caption:
 - Games
@@ -94,44 +115,24 @@ I didn't finish the game up to 100%. For instance, I hardly tested the online mo
 
 :white_check_mark: Nice things:
 
-- :earth_americas: Support in English and French on the website
-- :arrow_up_down: Full-screen mode
-- :necktie: The overall project looks professional
-- :black_circle: Nice transition effects in the menu
 - :performing_arts: Several difficulty modes available in parallel at the beginning
-- :cd: Several platforms for the game (Windows and Mac)
-- :runner: Smooth animations (the player and enemies don't move tile by tile but pixel by pixel)
-- :chart_with_upwards_trend: New enemies appear in the game (ghosts that are more powerful because they can go through bricks)
-- :busts_in_silhouette: Lots of enemies moving at the same time on the screen
 - :crystal_ball: Several levels are memorable (e.g. level 20 for the end of Easy Mode)
 - :restroom: For multiplayer mode, each player has their own display for lives/scores that they picked in the settings (percentage or absolute)
 - :arrow_upper_right: Diagonal moves are possible by holding two keys simultaneously (e.g. level 36)
 - :heart_decoration: A real difficult mode with some decent challenge (the player has to really pay attention to his stock of bombs otherwise they can be stuck somewhere with no bombs left nor lives and die quickly like in level 51)
 - :keycap_ten: Display of objects is smart by showing them individually then showing `x10` etc. when over 9 objects
 - :arrows_counterclockwise: Holding the `Space` key spawns bombs indefinitely without having to spam the `Space` key
-- :dart: Skill-based game rather than based on luck
-- :zap: No performance drop at all (it never slows down)
-- :bug: No bugs at all
-- :floppy_disk: Auto-save
-- :bulb: Innovative gameplay
-- :balloon: Really easy installation and doesn't take a lot of space
 - :triangular_ruler: There is a level editor
-- :recycle: The 4 tokens to unlock per level encourage the player to retry the same level
 
 ### Cons
 
 :x: Things that could be improved:
 
-- :earth_americas: No English support within the game
-- :octocat: The code is not open-source (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#open-source))
 - :game_die: The 3D mode is not well done at all, I didn't notice the change at first and went back to the settings to see if it was correctly saved. A real isometric view would look better and isn't that hard to implement (compared to real 3D).
 - :floppy_disk: Some issues about saving (as I didn't move the application within the `Applications` folder on Mac)
 - :skull: I was a little bit surprised my bomb wouldn't make me die early in the game. Later on, when trying to complete difficult levels I understood such a decision
-- :copyright: Video and audio files being used might be copyrighted and the source is not clearly mentioned (especially since it's Nintendo)
-- :mouse: Mouse clicks don't work for selecting the menu or within the level editor
 - :left_right_arrow: Animations are too limited (for instance the enemies don't have a sprite for up/down, they only have one for left/right, which looks odd when they move vertically)
 - :hourglass_flowing_sand: Timer is missing, it could be an interesting addition to the gameplay/difficulty
-- :mouse: The mouse is always displayed on screen (I'd expect not to see the cursor otherwise it's as annoying as watching a movie with the cursor appearing on top)
 - :repeat_one: Pretty repetitive overall, there isn't a lot of evolutions happening through the game apart from the 3 different themes and the new type of enemies appearing (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#evolution)). For instance, it would have been amazing to get access to more power-ups like a star that makes the player invincible for a short period of time (like in Mario) so that the player can run through as many enemies as possible to kill them (like in Pac-Man). Another example would be to offer a special bomb (limited to 1) that has a longer radius of explosion (or maybe infinite). And another example could be a bomb that explodes bricks that cannot usually be destroyed. Playing in the same visual theme for 20 levels becomes a bit boring as well.
 - :triangular_ruler: The level editor is really poor (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#level-editor))
 - :signal_strength: Online game can be improved. For instance, it's misleading as it's not clear if this is competitive or co-operative. We were surprised by the fact the diamonds' changes (when player A picks one of them) were not reflected (player B still sees it, we understood why but it can be counter-intuitive as we can see each other's character). It felt like we were not really playing together because we didn't have a clear impact on each other except forcing one of the players to follow us in the next level. The online game wasn't really lagging in the way that my own character was running smoothly but the other player's character's progression was really slow to update (~3-4 seconds) despite playing in the same room. Also, the game froze (black screen) for the host after 4-5 levels and later on, creating/joining a new session was impossible for both of us despite killing/re-launching the app.
@@ -139,7 +140,6 @@ I didn't finish the game up to 100%. For instance, I hardly tested the online mo
 - :zzz: There is no change of music or clear change of display when the player is about to die. It's hard to focus on the enemies moving quickly/the health bar. An additional video/audio indicator when there is only one life left could be good.
 - :hocho: A hardcode mode could be good. It could be a mode with a maximum of 3 lives for instance, or a mode that doesn't display any bomb/lives indicator on screen. We can also imagine a level in which enemies keep spawning (with a maximal threshold) until the "generator of enemies" is destroyed with a bomb by the player. Or it could be a level in which there are no safe zones (i.e. the enemies can move everywhere the player can move).
 - :neutral_face: Difficult levels become less interesting after a while once the player realizes that the best technique is to wait on a bomb spawner and hold `Space` key to kill enemies for 2-3 minutes before doing any move. One easy solution would be to include a 1-by-1 safe spot with a bomb spawner on it so that the player can target 4 cells at the same time (I think the maximum of targetable cells I've seen was 3 (the 4th one was a safe spot enemies couldn't go onto)). It would be good to introduce more power-ups (a green shell that the player throws against enemies for instance) in order to solve this issue (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#evolution)). By making the code open-source, developers could submit a PR introducing such a change (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#open-source)).
-- :gem: The menu doesn't show hints about the progression of the player. For instance when on the menu, I'd like `Adventure` to have an icon or a progress bar indicating how far I completed the overall game.
 - :egg: No real secrets in the game like easter eggs or hidden levels that get unlocked after completion
 - :feelsgood: It would be good to have some levels that feel like an adventure in the way that a particular level has a starting point and the player has to reach the ending point by following a specific linear path with some challenges in between.
 
