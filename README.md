@@ -7,6 +7,10 @@ These are my personal opinions about the games I test, some points will be objec
 
 I contact every author before reviewing their game (for instance the author might not want me to publish negative feedback on this public page and that's fine with me). You can still contact me here by creating an [issue](https://github.com/sebranly/video-game-tester/issues) or by using DM on Twitter ([@sebranly](https://twitter.com/sebranly)) and I'll do my best to solve the concern in a timely manner. For instance, if I mentioned a bug about your game and you fixed it, you can tag me so that I update the information available on this page. Also, I'd like readers to know that I'm aware that resources are limited (especially time and people) so I don't expect everything to be perfect in an indie game. This repository is trying to be as exhaustive as possible so that the authors can decide on their own where the priorities are for improving their projects.
 
+## Summary
+
+- [BomberMario](https://github.com/sebranly/video-game-tester/blob/master/README.md#bombermario)
+
 ## All Games
 
 ### Description
@@ -51,7 +55,7 @@ A real plus is to offer a progressive level editor that contains more and more f
 
 - 👨‍💻 **Author:** Anthony Khelil ([@anthonykhelil](https://twitter.com/anthonykhelil/status/1043969866674438145))
 - :calendar: **Release Date:** May 19, 2017
-- :mag: **Dates of the test:** End of December 2018
+- :mag: **Dates of the test:** End of December 2018 (version 1.2)
 - :arrow_down: **Download Link:** https://www.anthony-khelil.fr/BomberMario/Download.php
 
 ### Disclaimer
@@ -93,7 +97,7 @@ I didn't finish the game up to 100%. For instance, I hardly tested the online mo
 :x: Things that could be improved:
 
 - :earth_americas: No English support within the game
-- :octocat: The code is not open-source (see TBD)
+- :octocat: The code is not open-source (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#open-source))
 - :game_die: The 3D mode is not well done at all, I didn't notice the change at first and went back to the settings to see if it was correctly saved. A real isometric view would look better and isn't that hard to implement (compared to real 3D).
 - :floppy_disk: Some issues about saving (as I didn't move the application within the `Applications` folder on Mac)
 - :rewind: While in-game, it's not possible to pause/exit the game
@@ -103,12 +107,13 @@ I didn't finish the game up to 100%. For instance, I hardly tested the online mo
 - :left_right_arrow: Animations are too limited (for instance the enemies don't have a sprite for up/down, they only have one for left/right, which looks odd when they move vertically)
 - :hourglass_flowing_sand: Timer is missing, it could be an interesting addition to the gameplay/difficulty
 - :mouse: The mouse is always displayed on screen (I'd expect not to see the cursor otherwise it's as annoying as watching a movie with the cursor appearing on top)
-- :repeat_one: Pretty repetitive overall, there isn't a lot of evolutions happening through the game apart from the 3 different themes and the new type of enemies appearing (see TBD). For instance, it would have been amazing to get access to more power-ups like a star that makes the player invincible for a short period of time (like in Mario) so that the player can run through as many enemies as possible to kill them (like in Pac-Man). Another example would be to offer a special bomb (limited to 1) that has a longer radius of explosion (or maybe infinite). And another example could be a bomb that explodes bricks that cannot usually be destroyed. Playing in the same visual theme for 20 levels becomes a bit boring as well.
-- :triangular_ruler: The level editor is really poor (see TBD)
+- :repeat_one: Pretty repetitive overall, there isn't a lot of evolutions happening through the game apart from the 3 different themes and the new type of enemies appearing (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#evolution)). For instance, it would have been amazing to get access to more power-ups like a star that makes the player invincible for a short period of time (like in Mario) so that the player can run through as many enemies as possible to kill them (like in Pac-Man). Another example would be to offer a special bomb (limited to 1) that has a longer radius of explosion (or maybe infinite). And another example could be a bomb that explodes bricks that cannot usually be destroyed. Playing in the same visual theme for 20 levels becomes a bit boring as well.
+- :triangular_ruler: The level editor is really poor (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#level-editor))
 - :signal_strength: Online game can be improved. For instance, it's misleading as it's not clear if this is competitive or co-operative. We were surprised by the fact the diamonds' changes (when player A picks one of them) were not reflected (player B still sees it, we understood why but it can be counter-intuitive as we can see each other's character). It felt like we were not really playing together because we didn't have a clear impact on each other except forcing one of the players to follow us in the next level. The online game wasn't really lagging in the way that my own character was running smoothly but the other player's character's progression was really slow to update (~3-4 seconds) despite playing in the same room. Also, the game froze (black screen) for the host after 4-5 levels and later on, creating/joining a new session was impossible for both of us despite killing/re-launching the app.
 - :globe_with_meridians: No mini-map is displayed. That might have been a choice not to make the gameplay too easy. I think in that case, the mini-map could have been a special item that is hidden that the user has to pick in order to have a global overview of the map/ennemies' position as a reward
 - :zzz: There is no change of music or clear change of display when the player is about to die. It's hard to focus on the enemies moving quickly/the health bar. An additional video/audio indicator when there is only one life left could be good.
 - :hocho: A hardcode mode could be good. It could be a mode with a maximum of 3 lives for instance, or a mode that doesn't display any bomb/lives indicator on screen. We can also imagine a level in which enemies keep spawning (with a maximal threshold) until the "generator of enemies" is destroyed with a bomb by the player. Or it could be a level in which there are no safe zones (i.e. the enemies can move everywhere the player can move).
-- :neutral_face: Difficult levels become less interesting after a while once the player realizes that the best technique is to wait on a bomb spawner and hold `Space` key to kill enemies for 2-3 minutes before doing any move. One easy solution would be to include a 1-by-1 safe spot with a bomb spawner on it so that the player can target 4 cells at the same time (I think the maximum of targetable cells I've seen was 3 (the 4th one was a safe spot enemies couldn't go onto)). It would be good to introduce more power-ups (a green shell that the player throws against enemies for instance) in order to solve this issue (see TBD). By making the code open-source, developers could submit a PR introducing such a change (see TBD).
+- :neutral_face: Difficult levels become less interesting after a while once the player realizes that the best technique is to wait on a bomb spawner and hold `Space` key to kill enemies for 2-3 minutes before doing any move. One easy solution would be to include a 1-by-1 safe spot with a bomb spawner on it so that the player can target 4 cells at the same time (I think the maximum of targetable cells I've seen was 3 (the 4th one was a safe spot enemies couldn't go onto)). It would be good to introduce more power-ups (a green shell that the player throws against enemies for instance) in order to solve this issue (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#evolution)). By making the code open-source, developers could submit a PR introducing such a change (see [this section](https://github.com/sebranly/video-game-tester/blob/master/README.md#open-source)).
 - :gem: The menu doesn't show hints about the progression of the player. For instance when on the menu, I'd like `Adventure` to have an icon or a progress bar indicating how far I completed the overall game.
 - :egg: No real secrets in the game like easter eggs or hidden levels that get unlocked after completion
+- :feelsgood: It would be good to have some levels that feel like an adventure in the way that a particular level has a starting point and the player has to reach the ending point by following a specific linear path with some challenges in between.
